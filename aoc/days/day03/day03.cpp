@@ -146,7 +146,7 @@ void second_star()
 
 int main()
 {
-    // first_star();
+    first_star();
     second_star();
 
     return 1;
