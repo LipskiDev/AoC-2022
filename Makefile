@@ -2,7 +2,7 @@ CC = g++
 CFLAGS = -g -Wall
 SOURCEPATH = aoc/days/
 BUILDPATH = aoc/builds/
-NUMBERS = 01 02 03 04 05 06# 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+NUMBERS = 01 02 03 04 05 06 07# 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
 
 setup:
 	$(foreach num, $(NUMBERS), mkdir -p aoc/builds/day$(num) aoc/resources/day$(num) aoc/days/day$(num) || exit 1;)
